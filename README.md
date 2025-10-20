@@ -90,6 +90,7 @@ Configuration can be done through config file, GUI or environment variables. Var
 | TZ | Set your timezone for correct time | |
 | HOST | Listen address | 0.0.0.0 |
 | PORT   | Port for web GUI | 8840 |
+| BASE_PATH | Optional web path prefix for UI and API (no trailing slash) |  |
 | THEME | Any theme name from https://bootswatch.com in lowcase or [additional](https://github.com/aceberg/aceberg-bootswatch-fork) | sand |
 | COLOR | Background color: light or dark | dark |
 | NODEPATH | Path to local node modules |  |
@@ -157,6 +158,7 @@ theme: sand
 timeout: 60
 trim_hist: 48
 use_db: sqlite
+base_path: ""
 ```
 
 </details> 
