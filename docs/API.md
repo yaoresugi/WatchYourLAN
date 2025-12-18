@@ -39,7 +39,7 @@ Gets state of one `port` of `addr`. Returns `true` if port is open or `false` ot
 curl "http://0.0.0.0:8840/api/port/192.168.2.2/8844"
 
 # Generic form
-curl "http://0.0.0.0:8840{BASE_PATH}/api/port/192.168.2.2/8844"
+curl "http://0.0.0.0:8840/{BASE_PATH}/api/port/192.168.2.2/8844"
 ```
 </details><br>
 
