@@ -139,6 +139,7 @@ Config file name is `config_v2.yaml`. Example:
 
 ```yaml
 arp_args: ""
+base_path: ""
 color: dark
 host: 0.0.0.0
 ifaces: enp4s0
@@ -158,7 +159,6 @@ theme: sand
 timeout: 60
 trim_hist: 48
 use_db: sqlite
-base_path: ""
 ```
 
 </details> 
